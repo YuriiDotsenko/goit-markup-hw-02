@@ -25,6 +25,9 @@ ul {
 .site-nav :focus {
   color: #2196f3;
 }
+.site-nav .link.current {
+  color: #2196f3;
+}
 
 .info a {
   color: #757575;
