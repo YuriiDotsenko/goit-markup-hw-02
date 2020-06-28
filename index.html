@@ -4,25 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    
     <!-- Шапка -->
 
     <header>
       <nav>
         <a href="./index.html" aria-label="Логотип">
-          <p lang="en">WebStudio</p>
+          <p lang="en">
+            <span class="logo">Web</span><span class="logo-studio">Studio</span>
+          </p>
         </a>
 
-        <ul>
+        <ul class="site-nav">
           <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="info">
         <li>
           <img src="./img/mail-logo.svg" alt="Значек почты" />
           <a href="mail:info@devstudio.com" lang="en">info@devstudio.com</a>
@@ -38,20 +40,25 @@
 
     <main>
       <div>
-        <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <button>Заказать услугу</button>
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button">Заказать услугу</button>
         </section>
       </div>
 
       <!--Преимущества-->
 
-      <section>
+      <section class="section">
         <h2 hidden>Наши преимущества</h2>
 
         <ul>
           <li>
-            <img src="./img/antena.svg" alt="Внимание к деталям" width="65" height="70"/>
+            <img
+              src="./img/antena.svg"
+              alt="Внимание к деталям"
+              width="65"
+              height="70"
+            />
 
             <b>Внимание к деталям</b>
             <p>
@@ -61,7 +68,12 @@
           </li>
 
           <li>
-            <img src="./img/time.svg" alt="Пунктуальность" width="67" height="70"/>
+            <img
+              src="./img/time.svg"
+              alt="Пунктуальность"
+              width="67"
+              height="70"
+            />
 
             <b>Пунктуальность</b>
             <p>
@@ -71,7 +83,12 @@
           </li>
 
           <li>
-            <img src="./img/komputer.svg" alt="Планирование" width="70" height="54"/>
+            <img
+              src="./img/komputer.svg"
+              alt="Планирование"
+              width="70"
+              height="54"
+            />
 
             <b>Планирование</b>
             <p>
@@ -81,7 +98,12 @@
           </li>
 
           <li>
-            <img src="./img/men.svg" alt="Современные технологии" width="55" height="60"/>
+            <img
+              src="./img/men.svg"
+              alt="Современные технологии"
+              width="55"
+              height="60"
+            />
 
             <b>Современные технологии</b>
             <p>
@@ -94,35 +116,48 @@
 
       <!--Чем мы занимаемся-->
 
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
-              src="./img/img.jpg" alt="Десктопные приложения" width="370" height="294"/>
-            <p>Десктопные приложения</p>
+              src="./img/img.jpg"
+              alt="Десктопные приложения"
+              width="370"
+              height="294"
+            />
+            <b>Десктопные приложения</b>
           </li>
 
           <li>
             <img
-              src="./img/box.jpg" alt="Мобильные приложения" width="370" height="294"/>
-            <p>Мобильные приложения</p>
+              src="./img/box.jpg"
+              alt="Мобильные приложения"
+              width="370"
+              height="294"
+            />
+            <b>Мобильные приложения</b>
           </li>
 
           <li>
-            <img src="./img/desktop.jpg" alt="Дизайнерские решения" width="370" height="294"/>
-            <p>Дизайнерские решения</p>
+            <img
+              src="./img/desktop.jpg"
+              alt="Дизайнерские решения"
+              width="370"
+              height="294"
+            />
+            <b>Дизайнерские решения</b>
           </li>
         </ul>
       </section>
 
       <!--Наша команда-->
 
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section-team">
+        <h2 class="section-title">Наша команда</h2>
 
-        <img src="./img/nikolaj.jpg" alt="Фото Николая Кучеренко"/>
-        <h3>Николай Кучеренко</h3>
+        <img src="./img/nikolaj.jpg" alt="Фото Николая Кучеренко" />
+        <h3 class="section-title">Николай Кучеренко</h3>
         <p lang="en">Product Designer</p>
 
         <ul>
@@ -132,8 +167,8 @@
           <li lang="en"><a href="" aria-label="linkedin">linkedin</a></li>
         </ul>
 
-        <img src="./img/olga.jpg" alt="Фото Ольги Ивановой"/>
-        <h3>Ольга Иванова</h3>
+        <img src="./img/olga.jpg" alt="Фото Ольги Ивановой" />
+        <h3 class="section-title">Ольга Иванова</h3>
         <p lang="en">Frontend Developer</p>
 
         <ul>
@@ -143,8 +178,8 @@
           <li lang="en"><a href="" aria-label="linkedin">linkedin</a></li>
         </ul>
 
-        <img src="./img/andrej.jpg" alt="Фото Андрея Шевченко"/>
-        <h3>Андрей Шевченко</h3>
+        <img src="./img/andrej.jpg" alt="Фото Андрея Шевченко" />
+        <h3 class="section-title">Андрей Шевченко</h3>
         <p lang="en">Marketing</p>
 
         <ul>
@@ -154,8 +189,8 @@
           <li lang="en"><a href="" aria-label="linkedin">linkedin</a></li>
         </ul>
 
-        <img src="./img/ivan.jpg" alt="Фото Ивана Николаева"/>
-        <h3>Иван Николаев</h3>
+        <img src="./img/ivan.jpg" alt="Фото Ивана Николаева" />
+        <h3 class="section-title">Иван Николаев</h3>
         <p lang="en">UI Designer</p>
 
         <ul>
@@ -169,8 +204,8 @@
       <!--Наши клиенты-->
 
       <section>
-        <h3>Постоянные клиенты</h3>
-        <ul>
+        <h3 class="section-title">Постоянные клиенты</h3>
+        <ul class="clients">
           <li><img src="./img/Client_1.svg" alt="Клиет_1" /></li>
           <li><img src="./img/Client_2.svg" alt="Клиет_2" /></li>
           <li><img src="./img/Client_3.svg" alt="Клиет_3" /></li>
@@ -183,11 +218,13 @@
 
     <!--Подвал-->
 
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="" lang="en"> WebStudio</a>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
+        <a href="" lang="en"
+          ><span class="logo">Web</span><span class="logo-footer">Studio</span>
+        </a>
+        <ul class="footer-info">
+          <li class="logo-footer">г. Киев, пр-т Леси Украинки, 26</li>
           <li lang="en">
             <a href="mail:info@example.com"> info@example.com</a>
           </li>
@@ -199,7 +236,7 @@
       </div>
 
       <div>
-        <b>Присоединяйтесь</b>
+        <b class="logo-footer">Присоединяйтесь</b>
         <ul>
           <li lang="en"><a href="" aria-label="instagram">instagram</a></li>
           <li lang="en"><a href="" aria-label="twitter">twitter</a></li>

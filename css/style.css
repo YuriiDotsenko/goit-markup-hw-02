@@ -1,0 +1,77 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #212121;
+}
+
+/*site-nav*/
+
+.site-nav a {
+  color: #212121;
+}
+
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
+
+.info a {
+  color: #757575;
+}
+.info :hover,
+.info :focus {
+  color: #2196f3;
+}
+
+.section-title {
+  color: #212121;
+}
+
+/*Hero*/
+.hero-title {
+  color: ;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+}
+
+b {
+  color: #212121;
+}
+
+.clients {
+  color: #afb1b8;
+}
+.clients :hover,
+.clients :focus {
+  color: #2196f3;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.footer-info a {
+  color: rgba(255, 255, 255, 0.6);
+}
