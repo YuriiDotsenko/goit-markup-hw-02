@@ -11,6 +11,10 @@ ul {
 
 /*logo*/
 
+.logo-decoration {
+  text-decoration: none;
+}
+
 .logo,
 .logo-studio {
   color: #2196f3;
@@ -47,6 +51,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .info-kontakt:hover,
@@ -185,6 +190,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  text-decoration: none;
 }
 
 .description {
@@ -193,4 +199,5 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  text-decoration: none;
 }
