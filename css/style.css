@@ -1,85 +1,196 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
 }
 
 ul {
   list-style: none;
 }
 
-.logo {
+/*logo*/
+
+.logo,
+.logo-studio {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
   color: #212121;
 }
 
-/*site-nav*/
+/*navigation*/
 
-.site-nav a {
+.link-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
-.site-nav :hover,
-.site-nav :focus {
-  color: #2196f3;
-}
-.site-nav .link.current {
+.link-item:hover,
+.link-item:focus {
   color: #2196f3;
 }
 
-.info a {
+.info-kontakt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
-.info :hover,
-.info :focus {
+
+.info-kontakt:hover,
+.info-kontakt:focus {
   color: #2196f3;
 }
 
-.section-title {
-  color: #212121;
-}
+/*hero*/
 
-/*Hero*/
 .hero-title {
-  color: ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
 }
 
 .button {
   background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 
-.button ul :hover,
-?????? .button :focus {
-  color: #000000;
-}
+/*our advantages*/
 
-.section-team {
-  background-color: #f5f4fa;
-}
-
-b {
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #212121;
 }
 
-.clients {
-  color: #afb1b8;
-}
-.clients :hover,
-?????? .clients :focus {
-  color: #2196f3;
+/*what we do*/
+.section-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
+.title-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+
+/*our team*/
+.employees {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.employees-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*clients*/
+
+/*footer*/
 .footer {
   background-color: #2f303a;
 }
 
 .logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.footer-info a {
+.footer-info,
+.footer-adres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-adres {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.pic-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*portfolio*/
+
+.button-list:hover,
+.button-list:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
