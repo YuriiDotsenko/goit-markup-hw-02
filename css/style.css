@@ -143,6 +143,7 @@ ul {
 
 /*footer*/
 .footer {
+  text-decoration: none;
   background-color: #2f303a;
 }
 
@@ -164,6 +165,7 @@ ul {
 }
 
 .footer-adres {
+  text-decoration: none;
   color: var(--text-dark-theme-color);
 }
 
