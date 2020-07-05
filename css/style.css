@@ -1,3 +1,13 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --title-dark-theme-color: #ffffff;
+  --title-light-theme-color: #212121;
+  --text-theme-color: #757575;
+  --text-dark-theme-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -17,8 +27,8 @@ ul {
 
 .logo,
 .logo-studio {
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -26,7 +36,7 @@ ul {
 }
 
 .logo-studio {
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 /*navigation*/
@@ -36,13 +46,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-light-theme-color);
   text-decoration: none;
 }
 
 .link-item:hover,
 .link-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .info-kontakt {
@@ -50,13 +60,13 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-theme-color);
   text-decoration: none;
 }
 
 .info-kontakt:hover,
 .info-kontakt:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*hero*/
@@ -68,16 +78,16 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #ffffff;*/
+  /*color: var(--title-dark-theme-color);*/
 }
 
 .button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
 
 /*our advantages*/
@@ -88,19 +98,17 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 /*what we do*/
 .section-team {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 .title-list {
@@ -110,7 +118,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /*color: #ffffff;*/
+  /*color: var(--title-dark-theme-color);*/
 }
 
 /*our team*/
@@ -120,7 +128,7 @@ ul {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 .employees-position {
@@ -143,7 +151,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
 
 .footer-info,
@@ -152,11 +160,11 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
 
 .footer-adres {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-dark-theme-color);
 }
 
 .pic-footer {
@@ -165,15 +173,15 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
 
 /*portfolio*/
 
 .button-list:hover,
 .button-list:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--title-dark-theme-color);
 }
 
 .button-list {
@@ -189,7 +197,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-light-theme-color);
   text-decoration: none;
 }
 
@@ -198,6 +206,6 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-theme-color);
   text-decoration: none;
 }
